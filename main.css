@@ -42,7 +42,8 @@ header nav ul li a {
     color: white;
 }
 
-main {
+main,
+#products {
     padding: 5rem 0;
 }
 
@@ -59,11 +60,46 @@ main section .text_about {
     height: 350px;
 }
 
-main section .text_about h3 {
+h3 {
     padding-bottom: 1rem;
     border-bottom: 2px solid #5e2129;
 }
 
 main section .text_about p {
     padding-top: 3rem;
+}
+
+main #products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main #products h3 {
+    margin-bottom: 3rem;
+}
+
+.list_products {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 2.5%;
+}
+
+article {
+    width: 200px;
+
+}
+
+article img,
+article p {
+    padding: 1rem 0;
+}
+
+button {
+    width: 100%;
+    border: none;
+    background-color: #5e2129;
+    padding: 0.5rem;
+    color: #fff;
 }
