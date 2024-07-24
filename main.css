@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f2efef;
+    background-color: #d7d1d1;
 }
 
 .container {
@@ -31,6 +31,7 @@ header {
 header nav ul {
     display: flex;
     list-style: none;
+    font-weight: bold;
 }
 
 li {
@@ -40,6 +41,7 @@ li {
 
 header nav ul li a {
     color: white;
+    font-weight: bold;
 }
 
 main,
