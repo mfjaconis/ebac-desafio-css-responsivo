@@ -3,12 +3,26 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f2efef;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 2rem;
     background-color: #5e2129;
     color: white;
@@ -22,4 +36,34 @@ header nav ul {
 li {
     padding-left: 2rem;
     cursor: pointer;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+main {
+    padding: 5rem 0;
+}
+
+section {
+    display: flex;
+}
+
+main section .text_about {
+    padding: 0 2rem;
+}
+
+.loja_tenis {
+    width: 350px;
+    height: 350px;
+}
+
+main section .text_about h3 {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #5e2129;
+}
+
+main section .text_about p {
+    padding-top: 3rem;
 }
