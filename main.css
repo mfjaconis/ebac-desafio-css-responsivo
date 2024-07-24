@@ -80,13 +80,14 @@ main #products h3 {
 .list_products {
     max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 22.5%);
+    gap: 3%;
+    padding: 0 5%;
     margin: 0 auto;
 }
 
 article {
     width: 200px;
-
 }
 
 article img,
