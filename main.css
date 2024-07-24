@@ -81,7 +81,7 @@ main #products h3 {
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 22.5%);
-    gap: 3%;
+    gap: 5%;
     padding: 0 5%;
     margin: 0 auto;
 }
