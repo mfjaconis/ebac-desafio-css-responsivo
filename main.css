@@ -44,13 +44,9 @@ header nav ul li a {
     font-weight: bold;
 }
 
-main,
-#products {
-    padding: 5rem 0;
-}
-
 section {
     display: flex;
+    padding: 5rem 0;
 }
 
 main section .text_about {
